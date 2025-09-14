@@ -18,6 +18,12 @@ header{
     border-bottom: 2px solid #00b894;
 }
 
+.logo img {
+    height:60px;
+    width:
+    auto;
+    padding-left: 500px;
+}
 header h1 {
     font-size: 28px;
     margin-bottom: 10px;
