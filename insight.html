@@ -21,24 +21,9 @@
 
         <main>
             <h2><b><i>Live Forex Charts.</i></b></h2>
-            <div style="max-width: 900px; margin: 0 auto; 
-            text-align: center;">
-            <select id="pairSelect" style="
-            padding: 10px 20px;
-            font-size: 16px;
-            border-radius: 8px;
-            border: 1px solid#ccc;
-            background-color: #f9f9f9;
-            margin-bottom: 15px;
-            cursor: pointer;
-            ">
-                <option value="OANDA:EURUSD">EUR/USD</option>
-                <option value="OANDA:US100">US100</option>
-                <option value="OANDA:US500">US500</option>
-                <option value="OANDA:XAUUSD">Gold (XAU/USD)</option>
-                <option value="OANDA:XAGUSD">Silver (XAG/USD)</option>
-            </select>
-                <div id="tradingview_chart"></div></div>
+
+            <select id="pairSelect"></select>
+                <div id="tradingview_chart"></div>
 
             <script type="text/javascript"
             src="https://s3.tradingview.com/tv.js"></script>
